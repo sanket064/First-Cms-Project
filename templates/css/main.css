@@ -1,0 +1,272 @@
+/*Header*/
+/*margin-botom="20px"*/
+/*margin-botom-more="40px"*/
+ html, body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+}
+ body {
+     font-family: "Helvetica Neue",sans-serif;
+     font-weight: lighter;
+}
+ header {
+     width: 100%;
+     height: 100vh;
+     background: url(../imgs/hero.jpg) no-repeat 50% 50%;
+     background-size: cover;
+}
+ .wrapper{
+    z-index: 1;
+}
+ #hero {
+     width: 100%;
+     height: 150vh;
+     background: url(../imgs/hero2.jpg) no-repeat 50% 50%;
+     background-size: cover;
+}
+ .new-back {
+     width: 100%;
+     height: 150vh;
+     background: url(../imgs/hero2.jpg) no-repeat 50% 50%;
+     background-size: cover;
+}
+ .margin-bottom{
+    margin-bottom: 20px;
+}
+ .margin-bottom-more{
+    margin-bottom: 40px;
+}
+ .margin-bottom-extra{
+    margin-bottom: 80px;
+}
+ .content {
+     width: 94%;
+     margin: 2em auto;
+     font-size: 20px;
+     line-height: 30px;
+     text-align: justify;
+}
+ .logo {
+     line-height: 60px;
+     position: fixed;
+     float: left;
+     margin: 16px 46px;
+     color: #fff;
+     font-weight: bold;
+     font-size: 20px;
+     letter-spacing: 2px;
+}
+ nav {
+     position: fixed;
+     width: 100%;
+     line-height: 60px;
+}
+ nav ul {
+     line-height: 60px;
+     list-style: none;
+     background: rgba(0, 0, 0, 0);
+     overflow: hidden;
+     color: #fff;
+     padding: 0;
+     text-align: right;
+     margin: 0;
+     padding-right: 40px;
+     transition: 1s;
+}
+ nav ul li a:hover{
+     color:#e35d38;
+    text-decoration: none;
+}
+ nav.black ul {
+     background: #000;
+}
+ nav ul li {
+     display: inline-block;
+     padding: 16px 40px;
+}
+ nav ul li a {
+     text-decoration: none;
+     color: #daa520;
+     font-size: 16px;
+}
+ .menu-icon {
+     line-height: 60px;
+     width: 100%;
+     background: #000;
+     text-align: right;
+     box-sizing: border-box;
+     padding: 15px 24px;
+     cursor: pointer;
+     color: #fff;
+     display: none;
+}
+/*Header End*/
+ .content2 {
+     font-size: 18px;
+     line-height: 40px;
+     text-align: justify;
+     background-color:#DAA520;
+     color: white;
+     padding: 40px;
+}
+ .padding{
+    padding: 0px;
+}
+ .image-size{
+    width: 100%;
+}
+ .footer-color{
+    background-color:#222222;
+    color:#A2A2A2;
+    height:100px;
+    width:100%;
+}
+ .footer-align{
+    text-align: center;
+    margin-top: 20px;
+}
+ .footer-align a{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    color: #A2A2A2;
+    font-size: 20px;
+}
+ .footer-align a:hover{
+    color:#e35d38;
+}
+ .margin-top{
+    margin-top:10px;
+}
+ .footer-width{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #222222;
+}
+ .footer-width h6{
+    display: inline-block;
+    text-align:left;
+}
+ .footer-width .align-footer{
+    text-align:right;
+    display: inline-block;
+}
+ .position{
+    text-align: left;
+    display: inline-block;
+}
+ .position h6{
+    display: inline-block;
+}
+ .position1{
+    text-align: right;
+    display: inline-block;
+}
+ .footer-color-again{
+    background-color:#111111;
+    color: white;
+    padding-top:8px;
+}
+ .img{
+    width: 100%;
+    height: 100%
+}
+ div.gallery {
+     margin: 5px;
+     border: 1px solid #ccc;
+     float: left;
+     width: 30%;
+}
+ div.gallery:hover {
+     border: 1px solid #777;
+}
+ div.gallery img {
+     width: 100%;
+     height: 250px;
+}
+ div.desc {
+     padding: 15px;
+     text-align: center;
+     font-size: 20px;
+     color: #e35d38;
+     margin: 5px;
+}
+ .gallery img{
+    height: 600px;
+     width: 400px;
+}
+ @media(max-width: 786px) {
+     .logo {
+         position: fixed;
+         top: 0;
+         margin-top: 16px;
+    }
+     nav ul {
+         max-height: 0px;
+         background: #000;
+         opacity:0.7;
+    }
+     nav.black ul {
+         background:black;
+    }
+     .showing {
+         max-height: 34em;
+    }
+     nav ul li {
+         box-sizing: border-box;
+         width: 100%;
+         padding: 24px;
+         text-align: center;
+    }
+     .menu-icon {
+         display: block;
+    }
+     header {
+         background: url(../imgs/hero.jpg) no-repeat 25%;
+    }
+     #hero{
+         background: url(../imgs/hero2.jpg) no-repeat 0%;
+         background-size: contain;
+         height: 52vh;
+    }
+     #hero3{
+         background: url(../imgs/hero2.jpg) no-repeat 0%;
+         background-size: contain;
+         height: 52vh;
+    }
+     .content2 {
+         margin-left: 0em;
+    }
+     .position {
+        text-align: center;
+    }
+     .position1 {
+        text-align: center;
+    }
+     .footer-color{
+        height:150px
+    }
+     .new-margin{
+        margin-top: -20px;
+    }
+     .footer-align a{
+        padding: 10px;
+    }
+     div.gallery {
+        width: 100%;
+    }
+     nav ul li a{
+        color: white;
+    }
+     .latest-properties{
+        margin-top: 110px;
+    }
+     .new-size{
+        font-size: 24px;
+    }
+     .size{
+        font-size: 26px;
+    }
+}
+ 

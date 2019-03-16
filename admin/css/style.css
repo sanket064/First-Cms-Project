@@ -1,0 +1,249 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.login article {
+	padding: 40px;
+}
+
+.login article h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.login article p {
+	color: #777;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px 0px;
+}
+
+.login article form input[type="text"],
+.login article form input[type="password"] {
+	font-size: 14px;
+	color: #017DC6;
+	border-radius: 30px;
+	border: none;
+	background: #eee;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login article form input[type="submit"] {
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 30px;
+	border: none;
+	background: #017DC6;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login article form input[type="submit"]:hover {
+	background: royalblue;
+}
+
+.recordRow,
+.recordRowHeader {
+	display: block;
+	overflow: auto;
+	border-radius: 2px;
+	padding: 10px;
+	margin-bottom: 2px;
+}
+
+article form input[type="submit"] {
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 30px;
+	border: none;
+	background: #017DC6;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+article form input[type="text"],
+article form input[type="password"] {
+	font-size: 14px;
+	color: #017DC6;
+	border-radius: 30px;
+	border: none;
+	background: #eee;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.recordRow .recordCell,
+.recordRowHeader .recordCell {
+	float: left;
+}
+
+.recordRow .name,
+.recordRowHeader .name {
+	width: 50%;
+}
+
+.recordRowHeader .edit,
+.recordRowHeader .delete,
+.recordRow .edit,
+.recordRow .delete {
+	width: 25%;
+	text-align: center;
+}
+
+.recordRowHeader {
+	background: skyblue;
+}
+
+.recordRowHeader .recordCell {
+	font-weight: bold;
+}
+
+.recordRow .delete a {
+	color: tomato;
+}
+
+.recordRow {
+	background: #ccc;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.btn.primary {
+	background: skyblue;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	font-family: tahoma;
+	margin-bottom: 20px;
+}
+
+.msg {
+	font-size: 12px;
+	color: #666;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 100%;
+	background: skyblue;
+	border: 0px;
+	height: 100px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+select {
+	background: skyblue;
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.margin {
+	margin-top: 50px;
+}
+
+.margin-less {
+	margin-bottom: 30px;
+}
+
+.margin-more {
+	margin-top: 100px;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.image img {
+	border-radius: 30%;
+	max-height: 200px;
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.positioning-a {
+	margin-top: 20px;
+}
+
+.positioning-a a {
+	margin: 20px;
+}
+
+.positioning-a2 {
+	margin-top: 20px;
+}
+
+.positioning-a2 a {
+	margin: 20px;
+}
+
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	box-shadow: none;
+}
+
+.top {
+	margin-top: -18px
+}
+
+@media(max-width: 786px) {
+	.font-size {
+		font-size: 25px;
+	}
+	.positioning-a {
+		margin-top: 15px;
+	}
+	.positioning-a a {
+		margin: 0px;
+		font-size: 13px;
+	}
+	.positioning-a2 {
+		margin-top: 15px;
+	}
+	.positioning-a2 a {
+		margin: 0px;
+		font-size: 10px;
+	}
+	.top {
+		margin-top: 0px
+	}
+}
